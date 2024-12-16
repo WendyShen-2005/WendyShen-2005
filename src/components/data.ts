@@ -21,6 +21,41 @@ export const websites = [
 
 export const applicationProjects = [
     {
+        title:"Conway's Game of Life",
+        githubRepo:"",
+        link:null,
+        desc:"",
+        techStack:""
+    },
+    {
         title:"",
+        githubRepo:"",
+        link:null,
+        desc:"",
+        techStack:""
+    },
+    {
+        title:"",
+        githubRepo:"",
+        link:null,
+        desc:"",
+        techStack:""
+    }
+]
+
+export const hackathonProjects = [
+    {
+        title:"",
+        githubRepo:"",
+        devPost:null,
+        desc:"",
+        techStack:""
+    },
+    {
+        title:"",
+        githubRepo:"",
+        devPost:null,
+        desc:"",
+        techStack:""
     }
 ]
