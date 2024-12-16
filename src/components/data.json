@@ -1,0 +1,21 @@
+{
+    "websites": [
+       {"title":"Steam Page Copy",
+        "desc":"",
+        "img":"",
+        "tech":"",
+        "link":""},
+
+        {"title":"Image To Text",
+        "desc":"",
+        "img":"",
+        "tech":"",
+        "link":""},
+
+        {"title":"Modeling statistical problems",
+        "desc":"",
+        "img":"",
+        "tech":"",
+        "link":""}
+    ]
+}
