@@ -1,31 +1,19 @@
-import axios from 'axios';
-import { useEffect, useState } from 'react';
+// import axios from 'axios';
+// import { useEffect, useState } from 'react';
 
-// var data = require('json!./ProjectsDB.json');
+import { websites } from "./data.ts";
+import WebsiteListing from "./WebsiteListing";
 
 const Projects = () => { 
-
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        axios.get("/data.json").then((res) => {
-            setData(res.data.Projects);
-        })
-    }, []);
 
     return (
         <div>
             <h1>Websites</h1>
-            {data.map((data) => 
-                <div>
-                    <h2>{data.title}</h2>
-                    <a href={data.link}>Link</a>
-                    <img src={data.img}/>
-
-                    <p>{data.tech}</p>
-                    <p>{data.desc}</p>
-                </div>
-            )}
+            {websites.map((site) => {
+                return (
+                    <WebsiteListing data={site}/>
+                )
+            })}
         </div>
     )
 }
