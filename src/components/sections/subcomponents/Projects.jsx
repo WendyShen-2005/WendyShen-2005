@@ -1,13 +1,10 @@
-// import axios from 'axios';
-// import { useEffect, useState } from 'react';
-
-import { websites } from "./data.ts";
+import "./WebsiteListing";
+import { websites } from "./projectsData.ts";
 import WebsiteListing from "./WebsiteListing";
 
-const Projects = () => { 
-
+const Projects = () => {
     return (
-        <div>
+        <div id="projects-container">
             <h1>Websites</h1>
             {websites.map((site) => {
                 return (
@@ -17,5 +14,4 @@ const Projects = () => {
         </div>
     )
 }
-
-export default Projects;
+export default Projects

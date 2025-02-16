@@ -1,6 +1,6 @@
-const AboutMe = () => {
+const Socials = () => {
     return (
-        <div>
+        <div id="socials-container">
             
 
             <div>
@@ -15,4 +15,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe;
+export default Socials;

@@ -1,0 +1,11 @@
+$bg-color: rgb(225, 225, 225);
+
+#personal-website-intro-container {
+    background-color: $bg-color;
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

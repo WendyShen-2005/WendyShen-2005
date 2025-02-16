@@ -4,6 +4,7 @@
   "homepage": "https://WendyShen-2005.github.io/WendyShen-2005",
   "private": true,
   "dependencies": {
+    "@tabler/icons-react": "^3.30.0",
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
