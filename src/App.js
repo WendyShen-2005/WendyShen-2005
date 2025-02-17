@@ -4,11 +4,12 @@ import Sidebar from './components/Sidebar';
 import Intro from './components/sections/Intro';
 
 function App() {
+  
   return (
     <div>
       <Intro/>
       <div className='App'>
-        <Sidebar/>
+        <Sidebar />
         <div className='content-container'>
           <Contents/>
         </div>

@@ -1,11 +1,13 @@
-import "./WebsiteListing";
+import "./subSubComponents/WebsiteListing.jsx";
 import { websites } from "./projectsData.ts";
-import WebsiteListing from "./WebsiteListing";
+import WebsiteListing from "./subSubComponents/WebsiteListing.jsx";
+import "./Pages.scss";
 
 const Projects = () => {
     return (
-        <div id="projects-container">
-            <h1>Websites</h1>
+        <div className="section-container">
+            <h1 className="headers">Websites</h1>
+
             {websites.map((site) => {
                 return (
                     <WebsiteListing data={site}/>

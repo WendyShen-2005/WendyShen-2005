@@ -1,0 +1,48 @@
+$text-color: rgb(100, 100, 100);
+$lighter-text-color: rgb(177, 177, 177);
+
+$bg-color:rgb(255, 240, 192);
+
+.experience-listing-container {
+    display: flex;
+    .experince-listing-left-border-container {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        color: $lighter-text-color;
+        // flex: 1;
+        .experience-listing-vertical-line {
+            background-color: $lighter-text-color;
+            height: 50%;
+            width: 2px;
+            margin: auto;
+        }
+    }
+
+    .experience-listing-data-container {
+
+        text-align: start;
+        margin: 10px 20px;
+        padding: 10px 20px;
+        width: 100%;
+        background-color: $bg-color;
+        color: $text-color;
+
+        .experience-listing-title {
+            font-size: 25px;
+
+        }
+        .experience-listing-company {
+
+        }
+        .experience-listing-tech {
+            color: $lighter-text-color;
+
+        }
+        .experience-listing-points {
+
+            .experience-listing-point {
+            }
+        }
+    }
+}

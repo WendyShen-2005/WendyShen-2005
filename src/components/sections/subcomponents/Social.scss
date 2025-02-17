@@ -1,0 +1,40 @@
+#socials-container {
+    #socials-header {
+        font-weight: normal;
+    }
+    #social-links-container {
+        display: flex;
+        justify-content: center;
+
+        .social-link {
+            display: flex;
+            margin: 0 10px;
+            margin-right: 0;
+            padding-right: 10px;
+            border-right: 1px solid grey;
+
+            * {
+                color: grey;
+                transition: 0.2s ease;
+            }
+
+            .social-link-icon {
+                margin-right: 5px;
+            }
+            a {
+                font-size: 20px;
+                text-decoration: none;
+            }
+        }
+        #social-link-last {
+            border: none;
+        }
+
+        .social-link:hover {
+            * {
+                color: black;
+                transition: 0.2s ease;
+            }
+        }
+    }
+}

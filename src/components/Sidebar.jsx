@@ -21,9 +21,9 @@ const Sidebar = () => {
 
     const openClose = () => {
         setOpen(!open);
-        const element = document.getElementById("sidebar-buttons-container");
+        // const element = document.getElementById("sidebar-buttons-container");
 
-            element.classList.toggle("active");
+        //     element.classList.toggle("active");
         // } else {
         //     element.classList.toggle("inactive");
         // }
@@ -31,21 +31,25 @@ const Sidebar = () => {
 
     return (
         <div id="sidebar-container">
-            <div id="sidebar-buttons-container">
+            {open && <div id="sidebar-buttons-container">
                 {sections.map((sect) => 
                     <a href={sect.href}>
                         {sect.icon} 
-                        {open && 
                         <>
                             <div className="sidebar-icon-space"/>
                             {sect.title}
-                        </>}
+                        </>
                     </a>
                 )}
-                {open && 
-                    <div id="sidebar-width-definer"/>
-                }
-            </div>
+                <div id="sidebar-width-definer"/>
+            </div>}
+            {!open && <div onClick={openClose} id="sidebar-buttons-container">
+                {sections.map((sect) => 
+                    <a href={sect.href}>
+                        {sect.icon} 
+                    </a>
+                )}
+            </div>}
 
             {open && <button id="sidebar-open-button" onClick={openClose}><IconArrowLeft/></button>}
             {!open && <button id="sidebar-open-button-closed" onClick={openClose}><IconArrowRight/></button>}

@@ -5,12 +5,13 @@ $bg-color: rgb(225, 225, 225);
     transition: 0.2s ease width;
 
     #sidebar-buttons-container {
+        box-shadow: 2px 20px 15px rgba(65, 0, 0, 0.226);
         display: flex;
         flex-direction: column;
         width: fit-content;
         padding: 20px;
-        background-color: $bg-color;
-        // transition: 0.2s ease width;
+        background: rgb(254,180,245);
+        background: linear-gradient(0deg, rgba(254,180,245,1) 0%, rgba(255,254,168,1) 100%);        // transition: 0.2s ease width;
 
         a {
             padding: 10px;
@@ -45,7 +46,7 @@ $bg-color: rgb(225, 225, 225);
         border-top-right-radius: 50%;
         border-bottom-right-radius: 50%;
         border: none;
-        background-color: $bg-color;
+        background-color: rgba(255,254,168,1);
     }
 
     #sidebar-open-button-closed {
@@ -56,7 +57,7 @@ $bg-color: rgb(225, 225, 225);
         border-top-right-radius: 50%;
         border-bottom-right-radius: 50%;
         border: none;
-        background-color: $bg-color;
+        background-color: rgba(255,254,168,1);
 
         opacity: 25%;
         transition: 0.2s ease all;

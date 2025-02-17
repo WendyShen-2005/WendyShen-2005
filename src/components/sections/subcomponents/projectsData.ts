@@ -25,7 +25,7 @@ export const applicationProjects = [
         githubRepo:"",
         link:null,
         desc:"",
-        techStack:""
+        techStack:"Python"
     },
     {
         title:"",
@@ -52,7 +52,7 @@ export const hackathonProjects = [
         techStack:""
     },
     {
-        title:"",
+        title:"Snowdrops",
         githubRepo:"",
         devPost:null,
         desc:"",
