@@ -8,4 +8,27 @@ $bg-color: rgb(225, 225, 225);
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    #personal-website-intro-small {
+        font-size: 30px;
+        font-weight: normal;
+    }
+    #personal-website-intro-big {
+        font-size: 80px;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    #intro-down-button {
+        display: flex;
+        align-items: center;
+        padding: 7px;
+        border-radius: 50%;
+        transition: 0.2s;
+    }
+
+    #intro-down-button:hover {
+        background-color: rgba(0, 0, 0, 0.151);
+        transition: 0.2s;
+    }
 }

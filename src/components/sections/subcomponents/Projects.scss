@@ -1,0 +1,14 @@
+#projects-section-container {
+    display: flex;
+    width: 100%;
+    // div {
+    //     border: 1px solid red;
+    // }
+    .projects-section-col {
+        // border: 1px solid red;
+        width: 50%;
+    }
+    .projects-section-middle-space {
+        width: 20px;
+    }
+}

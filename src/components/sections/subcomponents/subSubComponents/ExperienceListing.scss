@@ -33,7 +33,7 @@ $bg-color:rgb(255, 240, 192);
 
         }
         .experience-listing-company {
-
+            color: $lighter-text-color;
         }
         .experience-listing-tech {
             color: $lighter-text-color;
@@ -42,6 +42,7 @@ $bg-color:rgb(255, 240, 192);
         .experience-listing-points {
 
             .experience-listing-point {
+                margin-bottom: 5px;
             }
         }
     }

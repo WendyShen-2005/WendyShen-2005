@@ -4,7 +4,7 @@ import "./Pages.scss";
 
 const Experience = () => {
     return (
-        <div className="section-container">
+        <div className="section-container" id="experience-container">
             <h1 className="headers">My experiences...</h1>
 
             {experienceData.map((exp) => 

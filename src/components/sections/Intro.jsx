@@ -4,10 +4,10 @@ import "./Intro.scss"
 const Intro = () => {
     return (
         <div id="personal-website-intro-container">
-            <h3>Hello, my name is</h3>
-            <h1>WeNdY!!@12!@1@121!!1</h1>
-            <a href="#sidebar-container">
-                <IconArrowDown/>
+            <div id="personal-website-intro-small">Hello, my name is...</div>
+            <div id="personal-website-intro-big">Wendy</div>
+            <a href="#sidebar-container" id="intro-down-button">
+                <IconArrowDown size={50}/>
             </a>
         </div>
     )
