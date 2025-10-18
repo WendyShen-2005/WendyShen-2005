@@ -12,6 +12,7 @@ const ExperienceListing = ({data}) => {
             <div className="experience-listing-data-container">
                 <div className="experience-listing-title">{data.title} | <span className="experience-listing-company">{data.company}</span></div>
                 <div className="experience-listing-tech">{data.tech}</div>
+                <div className="experience-listing-tech">{data.date}</div>
                 <ul className="experience-listing-points">
                     {data.work.map((w) => 
                         <li className="experience-listing-point">{w}</li>
