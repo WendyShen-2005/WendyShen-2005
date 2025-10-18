@@ -5,7 +5,7 @@ const WhoIAm = () => {
         <div className="section-container" id="who-i-am-container">
             <h1 className="headers">Who I Am</h1>
             <p id="who-i-am-text">
-                My name is Wendy and I'm a second year computer security student at York Univeristy! 
+                My name is Wendy and I'm a third year computer security student at York Univeristy! 
                 I have enjoyed and explored programming ever since I was in grade 4, starting from when my brother introduced me to scratch.
                 <br/><br/>
                 Since then, I have explored various fields, but always come back to programming. 
