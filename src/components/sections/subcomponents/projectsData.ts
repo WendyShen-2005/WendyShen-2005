@@ -58,6 +58,13 @@ export const applicationProjects = [
 
 export const hackathonProjects = [
     {
+        title:"Teddy Banks",
+        repo:"https://github.com/WendyShen-2005/PiggyKidsApp-ElleHacks2026",
+        devPost:"https://devpost.com/software/teddybanks",
+        desc:"A unique financial education platform that turns the traditional piggy bank into your kid's newest financial teacher. This platform allows users to create and manage savings accounts for children, with parental controls and educational resources to promote financial literacy from a young age.",
+        tech:"React.js, Node.js, Express.js, MongoDB"
+    },
+    {
         title:"CarePoints",
         repo:"https://github.com/AldrichMendes/Ctrl-Hack-Del-Hackathon",
         devPost:"https://devpost.com/software/carepoints",

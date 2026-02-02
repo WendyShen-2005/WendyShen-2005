@@ -4,6 +4,7 @@ $lighter-text-color: rgb(177, 177, 177);
 $bg-color:rgb(255, 240, 192);
 
 .experience-listing-container {
+    opacity: 0.7;
     display: flex;
     .experince-listing-left-border-container {
         // border: 1px solid red;
@@ -46,5 +47,13 @@ $bg-color:rgb(255, 240, 192);
                 margin-bottom: 5px;
             }
         }
+    }
+}
+
+.experience-listing-container:hover {
+    opacity: 1;
+    transition: 0.2s;
+    * {
+        color:black
     }
 }

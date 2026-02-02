@@ -15,3 +15,79 @@
         font-size: 20px;
     }
 }
+
+#who-i-am-container > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+#who-i-am-text {
+  flex: 1;            // makes text fill remaining space
+  min-width: 250px;   // prevents shrinking too small
+}
+
+img {
+  flex-shrink: 0;     // prevents image shrinking
+}
+
+/* Education specific styling */
+#education-container .education-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+#education-container .education-logo {
+  width: 260px;
+  max-width: 40%;
+  height: auto;
+  object-fit: contain;
+}
+
+#education-container .education-details {
+  text-align: start;
+}
+
+/* Resume preview + button */
+#education-container .education-resume {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#education-container .education-resume-preview-wrap {
+  width: 100%;
+  max-width: 900px;
+  height: 520px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+  display: block;
+  text-align: left;
+}
+
+#education-container .education-resume-preview {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#education-container .education-download-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  text-align: left;
+}
+
+#education-container .education-download-button:hover {
+  opacity: 0.95;
+}

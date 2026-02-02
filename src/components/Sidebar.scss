@@ -33,6 +33,15 @@ $bg-color: rgb(225, 225, 225);
             transition: 0.2s ease all;
         }
 
+        a.active {
+            color: black;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.45);
+            border-radius: 8px;
+            padding: 10px;
+            transition: 0.2s ease all;
+        }
+
         #sidebar-width-definer {
             width: 150px;
         }
